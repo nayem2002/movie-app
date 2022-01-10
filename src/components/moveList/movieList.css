@@ -1,0 +1,40 @@
+.move-list-containerr {
+  width: 100%;
+  display: flex;
+  padding: 0rem 2rem;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.movie-box {
+  transition: all 0.4s;
+  width: 200px;
+  height: 350px;
+  padding: 10px;
+}
+.movie-box:hover {
+  transform: scale(1.1);
+}
+.movie-poster {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.movie-poster img {
+  width: 100%;
+  height: 100%;
+}
+
+.movies-content {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.movies-content p {
+  margin-top: 8px;
+}
+

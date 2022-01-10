@@ -1,0 +1,55 @@
+.movie-detels-containear {
+  width: 100%;
+  /* height: auto; */
+  min-height: 100vh;
+}
+.movie-detels-row {
+  margin-top: 5rem;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-evenly;
+}
+.move-poster {
+  flex: 1;
+  max-width: 500px;
+}
+.move-poster img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+.movie-detels-content {
+  flex: 1;
+  /* margin-left: 3rem; */
+  max-width: 50%;
+}
+
+.movie-title h2 {
+  font-size: 1.6rem;
+}
+
+.movie-discripiition ul {
+  display: flex;
+  width: 100%;
+  justify-content: unset;
+  margin-top: 1rem;
+}
+
+.movie-discripiition ul li {
+  list-style: none;
+  margin-inline-end: 1rem;
+}
+.movie-heading {
+  margin-top: 1.5rem;
+  max-width: 500px;
+}
+
+.movie-others-detels {
+  margin-top: 1rem;
+}
+
+.movie-others-detels ul li {
+  list-style: none;
+  line-height: 2rem;
+}

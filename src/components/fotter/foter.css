@@ -1,0 +1,16 @@
+.foter-containear {
+  background-color: #3c2352;
+  width: 100%;
+  height: 5rem;
+  display: grid;
+  place-content: center;
+  margin-top: 3rem;
+}
+.content {
+  width: 100%;
+  text-align: center;
+}
+.content p {
+  font-size: 13px;
+  padding-top: 4px;
+}
