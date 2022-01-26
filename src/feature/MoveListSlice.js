@@ -7,7 +7,8 @@ export const fatchMove = createAsyncThunk(
   'movies/fatchMove',
   async (search) => {
     const res = await axios.get(`?apiKey=${apiKey}&s=${search}&type="movie"`);
-    return res.data;
+    const data = res.json();
+    return data.data;
   }
 );
 //  Fatching Shwos
@@ -15,7 +16,8 @@ export const fatchShows = createAsyncThunk(
   'movie/fatchShows',
   async (search) => {
     const res = await axios.get(`?apiKey=${apiKey}&s=${search}&type="series"`);
-    return res.data;
+     const data = res.json();
+    return data.data;
   }
 );
 
@@ -24,7 +26,8 @@ export const fatchMovieAndShows = createAsyncThunk(
   'movisAndShows/fatchMovieAndShows',
   async (id) => {
     const res = await axios.get(`?apiKey=${apiKey}&i=${id}&plot=full`);
-    return res.data;
+      const data = res.json();
+    return data.data;
   }
 );
 
